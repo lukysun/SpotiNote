@@ -42,9 +42,9 @@ pour utilisé ce script tu dois entrer tes variables lors du 1er lançement de l
 
 
 `SPOTIPY_CLIENT_SECRET`:
-*Ttout d'abord cclique sur "client secret"*
+*Ttout d'abord cclique sur "client secret" *puis copie la clé qui s'affiche*
 ![image](https://github.com/lukysun/SpotiNote/assets/90115054/8ad50c98-3877-47ac-af3e-788c1076a724)
-*puis copie la clé qui s'affiche*
+*
 `SPOTIPY_REFRESH_TOKEN`:
 *le jeton sert à se connecté à spotify tu peux le trouvé comme ceci : *
 -d'abord tu vas te rendre sur le site : https://spotify-refresh-token-generator.netlify.app et cliqué sur le bouton "get started"
@@ -54,7 +54,7 @@ pour utilisé ce script tu dois entrer tes variables lors du 1er lançement de l
 ![image](https://github.com/lukysun/SpotiNote/assets/90115054/9a057e9e-472d-4253-94b9-0118e08e2b9b)
 tu vas entré les information que tu à récupéré précédament comme ceci : 
 ![image](https://github.com/lukysun/SpotiNote/assets/90115054/6600d937-a557-4b21-90c7-1a32b3bc8dde)
-pour continuer tu vas retourner sur : https://developer.spotify.com/dashboard puis sur ton app et dans les parmètre (voir les 2 1ere étape)
+pour continuer tu vas retourner sur : https://developer.spotify.com/dashboard puis sur ton app et dans les parmètre (voir les 2 premières étape)
 et dans "redirect url tu vas rentré ceci : https://spotify-refresh-token-generator.netlify.app
 ![image](https://github.com/lukysun/SpotiNote/assets/90115054/de9ff05f-3574-43fc-a1aa-a711179f8204)
 -ensuite tu clique sur "tout les scope" et clique sur le bouton "get spotify acces code"
