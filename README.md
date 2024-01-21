@@ -52,10 +52,11 @@ pour utilisé ce script tu dois entrer tes variables lors du 1er lançement de l
 
 -puis tu clique sur "Already got the required data? Skip this step"
 ![image](https://github.com/lukysun/SpotiNote/assets/90115054/9a057e9e-472d-4253-94b9-0118e08e2b9b)
-tu vas entré les information que tu à récupéré précédament comme ceci : 
-![image](https://github.com/lukysun/SpotiNote/assets/90115054/6600d937-a557-4b21-90c7-1a32b3bc8dde)
 pour continuer tu vas retourner sur : https://developer.spotify.com/dashboard puis sur ton app et dans les parmètre (voir les 2 premières étape)
 et dans "redirect url tu vas rentré ceci : https://spotify-refresh-token-generator.netlify.app
+tu vas entré les information que tu à récupéré précédament comme ceci : 
+![image](https://github.com/lukysun/SpotiNote/assets/90115054/6600d937-a557-4b21-90c7-1a32b3bc8dde)
+
 ![image](https://github.com/lukysun/SpotiNote/assets/90115054/de9ff05f-3574-43fc-a1aa-a711179f8204)
 -ensuite tu clique sur "tout les scope" et clique sur le bouton "get spotify acces code"
 ![image](https://github.com/lukysun/SpotiNote/assets/90115054/290966e2-fae8-4716-a009-9c15401c46e3)
