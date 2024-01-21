@@ -22,7 +22,7 @@ ouvrir un terminal/cmd dans le dossier
 
 ```bash
   pip install -r requirements.txt
-  python notify.py
+  python spotinote.py
 ```
     
 ## Environment Variables
