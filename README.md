@@ -67,7 +67,7 @@ tu vas entré les information que tu à récupéré précédament comme ceci :
 # 🛑 je déconseille fortement de mettre en dessous de 150 seconde sous peine de trigger l'api de instgram !
 
 POUR CE QUI SUIT, LA SUITE DES MOT DANS LA NOTE EST DEFINIE PAR : 
-<préfix> (titre) <séparateur> <artiste>
+<préfix> (titre) <séparateur> (artiste)
 `SONG_SEPARATOR`:
 *ceci est le mot ou le symbole qui sera entre m'artiste et le litre *
 vour pouvez ajouté un mot comme "de" ou "par" si je prend l'exemple de la musique alone de alan walker et que je choisit le séparateur "de" alord j'aurais dans ma note :
