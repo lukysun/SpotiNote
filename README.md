@@ -1,65 +1,88 @@
 
-# Notify
+# SpotiNote 
+## Fork de Notify
 
-Want to spice up your Notes on Instagram by displaying what you're currently playing on Spotify ? Here is Notify at your service ! 
+Si tu à envie d'ajouté du fun à tes note instagram SpotiNote est là pour toi ! 
 
 ## Installation
 
-Install Notify from GitHub
-
-### Download from GitHub
+Instalation de SpotiNote
+### Depuis GitHub
 ```bash
-  git clone https://github.com/nil-malh/Notify.git
-  cd Notify
+  git clone https://github.com/lukysun/SpotiNote.git
+  cd SpotiNote
 ```
+### Par Ficher .zip
+clique sur le bouton "code" puis télécharger le .zip
+puis l'extraire dans un dossier comme toute autre zip !
+ouvrir un terminal/cmd dans le dossier
+![image](https://github.com/lukysun/SpotiNote/assets/90115054/619cb0cf-0013-4bf8-ad12-bda0949fdc37)
 
-### Download dependencies and run the project
+### télécharge les dépendence et lance le script
 
 ```bash
-  pip install -r requirements.txt && python notify.py
+  pip install -r requirements.txt
+  python notify.py
 ```
     
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file or input them when running the project for the first time.
+pour utilisé ce script tu dois entrer tes variables lors du 1er lançement de l'application tu trouveras le tout ici : https://developer.spotify.com/dashboard 
+
+### étape : 
+- sur le site https://developer.spotify.com/dashboard clique sur "create app" puis crée en une
+![image](https://github.com/lukysun/SpotiNote/assets/90115054/7542d4c0-913c-44a0-a867-57e7f3b9ec79)
+
+- une fois l'application crée clique sur "setting"
+![image](https://github.com/lukysun/SpotiNote/assets/90115054/ea72806a-5127-4e1d-8340-441309099f23)
 
 `SPOTIPY_CLIENT_ID`:
-*The client_id from your Spotify application*
+*L'id de ton bot spotify trouvable ici : 
+![image](https://github.com/lukysun/SpotiNote/assets/90115054/d154a6a5-525f-48ce-a10b-096f5f5b8b09)
+
 
 `SPOTIPY_CLIENT_SECRET`:
-*The client_secret from your Spotify application*
-
+*Ttout d'abord cclique sur "client secret"*
+![image](https://github.com/lukysun/SpotiNote/assets/90115054/8ad50c98-3877-47ac-af3e-788c1076a724)
+*puis copie la clé qui s'affiche*
 `SPOTIPY_REFRESH_TOKEN`:
-*The refresh_token for the Authentication to the Spotify API*
+*le jeton sert à se connecté à spotify tu peux le trouvé comme ceci : *
+-d'abord tu vas te rendre sur le site : https://spotify-refresh-token-generator.netlify.app et cliqué sur le bouton "get started"
+![image](https://github.com/lukysun/SpotiNote/assets/90115054/4b9b4962-dafe-4a7b-82f6-14cdfe44ec16)
+
+-puis tu clique sur "Already got the required data? Skip this step"
+![image](https://github.com/lukysun/SpotiNote/assets/90115054/9a057e9e-472d-4253-94b9-0118e08e2b9b)
+tu vas entré les information que tu à récupéré précédament comme ceci : 
+![image](https://github.com/lukysun/SpotiNote/assets/90115054/6600d937-a557-4b21-90c7-1a32b3bc8dde)
+pour continuer tu vas retourner sur : https://developer.spotify.com/dashboard puis sur ton app et dans les parmètre (voir les 2 1ere étape)
+et dans "redirect url tu vas rentré ceci : https://spotify-refresh-token-generator.netlify.app
+![image](https://github.com/lukysun/SpotiNote/assets/90115054/de9ff05f-3574-43fc-a1aa-a711179f8204)
+-ensuite tu clique sur "tout les scope" et clique sur le bouton "get spotify acces code"
+![image](https://github.com/lukysun/SpotiNote/assets/90115054/290966e2-fae8-4716-a009-9c15401c46e3)
+- et voilà tu a juste à copier ton jeton ! 
 
 `BOT_REFRESH_RATE`:
-*The intervals between two notes sent to the Instagram API*
+*Ceci est le temps que le bot vas mettre avant de mettre à jour la note instgram*  
+# 🛑 je déconseille fortement de mettre en dessous de 150 seconde sous peine de trigger l'api de instgram !
 
+POUR CE QUI SUIT, LA SUITE DES MOT DANS LA NOTE EST DEFINIE PAR : <préfix> (titre) <séparateur> <artiste>
 `SONG_SEPARATOR`:
-*The separator between the song name and the artist*
-
+*ceci est le mot ou le symbole qui sera entre m'artiste et le litre *
+vour pouvez ajouté un mot comme "de" ou "par" si je prend l'exemple de la musique alone de alan walker et que je choisit le séparateur "de" alord j'aurais dans ma note :
+"alone de alan walker"
+mais si je choisit "par" alors j'aurais : 
+"alone par alan walker"
+`préfix`
+celui si est un texte se trouvant au début de la note 
+## 🚫 ATTENTION EVITE DE METTRE UN TROP LONG PRÉFIXE CAR UNE NOTE EST LIMITÉ à 60 CARACTERE !
 `IG_USERNAME`
-*Your Instagram username*
+*ton pseudo instagram*
 
 `IG_PASSWORD`
-*Your Instagram password*
+*Ton mot de passe instagram*
 
 
 
 ## FAQ
 
-#### How can I generate a refresh_token ? 
-
-You can use this [project](https://github.com/limhenry/spotify-refresh-token-generator) made by [@limhenry](https://github.com/limhenry) to generate your refresh_token please be sure to check the scope `user-read-currently-playing` in order to authorize Notify to ask Spotify what you are currently listening to.
-
-#### What value shoud I put in `BOT_REFRESH_RATE ?`
-
-The value in BOT_REFRESH_RATE should at least 120 seconds to avoid triggering Instagram. You can put lower value if you like the risk but I am not reponsible for your account being restricted !
-
-## Used dependencies
-
-**Client:** 
-* [Instagrapi]("https://github.com/adw0rd/instagrapi") (*Note implementation made by me !*)
-* [Spotipy]("https://github.com/spotipy-dev/spotipy")
-
-
+# A VENIR
