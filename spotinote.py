@@ -3,6 +3,7 @@ from time import sleep
 from datetime import datetime
 import base64
 import requests
+import colorama
 from colorama import *
 # Spotipy import
 import spotipy
