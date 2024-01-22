@@ -1,5 +1,4 @@
 import os
-import sphinx
 from time import sleep
 from datetime import datetime
 import base64
