@@ -3,3 +3,4 @@ pillow
 requests
 spotipy
 python-dotenv
+colorama
